@@ -14,6 +14,20 @@ Z = Positioning the integers such that a new combination is made
 Generating a new array with new combination
 Reversing the array at the end of the computation, when all the integers are in reverse order the function stops
 */
+// Given a collection of distinct integers, return all possible permutations.
+
+// Example:
+
+// Input: [1,2,3]
+// Output:
+// [
+//   [1,2,3],
+//   [1,3,2],
+//   [2,1,3],
+//   [2,3,1],
+//   [3,1,2],
+//   [3,2,1]
+// ]
 
 var permute = function (nums) {
     let result = [];
@@ -34,17 +48,3 @@ var permute = function (nums) {
 };
 
 console.log(permute([1, 2, 3]));
-// Given a collection of distinct integers, return all possible permutations.
-
-// Example:
-
-// Input: [1,2,3]
-// Output:
-// [
-//   [1,2,3],
-//   [1,3,2],
-//   [2,1,3],
-//   [2,3,1],
-//   [3,1,2],
-//   [3,2,1]
-// ]

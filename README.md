@@ -4,3 +4,5 @@
 ### Problems:
 
 * [X] Permute Problem outline and solution
+* [X] Added Dom-Manipulation problem and solution
+* [] Added Converting roman numeral to integer problem, no solution yet
