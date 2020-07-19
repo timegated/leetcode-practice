@@ -46,7 +46,7 @@ function reverse(n) {
     }
    
     return n < 0 ? -reverseN : reverseN;
-}
+};
 
 console.log(reverse(-123));
 console.log(reverse(1563847412));
